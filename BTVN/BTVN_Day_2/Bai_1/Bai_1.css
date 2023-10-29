@@ -1,0 +1,42 @@
+.container{
+    width: 600px;
+    margin: 150px auto;
+}
+@font-face {
+    font-family: vnm;
+    src: url("/BTVN/BTVN_Day_2/Font/VNM-Sans-Display-Regular.otf");
+}
+body{
+    background-color: #0313b0;
+    font-family:vnm;
+    color:#ffffff;
+    text-align: center;
+}
+
+.VNM{
+   font-size: 50px;
+   margin-top: 10%;
+}
+.Name{
+    font-weight: 590;
+    font-size: 300px;
+    margin-top: -50px;
+}
+.tag{
+    font-size:  50px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+.year{
+    font-size: 50px;
+    float: right;
+    margin-top: -60px;
+    margin-right: 10px;
+}
+.box{
+    color: #ffffff;
+    font-size: 40px ;
+    margin: -150px auto ;
+    padding: 30px;
+}
