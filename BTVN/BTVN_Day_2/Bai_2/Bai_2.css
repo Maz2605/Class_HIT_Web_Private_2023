@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: inter;
-    src: url("/BTVN/BTVN_Day_2/Font/Inter-VariableFont_slnt\,wght.ttf");
+    src: url("../Font/Inter-VariableFont_slnt\,wght.ttf");
 
 }
 :root {
