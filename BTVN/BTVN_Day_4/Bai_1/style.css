@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@import url(https://bootstrapmade.com/demo/templates/MyResume/assets/img/hero-bg.jpg);
+@font-face {
+    font-family: Poppins;
+    src: url(/font/Poppins/Poppins-Bold.ttf);
+}
+html{
+    font-family: "Poppins",sans-serif ;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://bootstrapmade.com/demo/templates/MyResume/assets/img/hero-bg.jpg) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner .content{
+    z-index: -1 ;
+}
+.banner .overley{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 80%;
+}

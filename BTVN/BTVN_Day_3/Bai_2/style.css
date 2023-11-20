@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.box_1{
+    display: flex;
+    background-color: #ffce9e;
+}
+.box_2{
+    display: flex;
+    background-color: #d18b47;
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
