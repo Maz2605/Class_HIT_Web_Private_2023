@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #336699;
+    display: flex;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    /*  background: url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c4/bb/c7/c4bbc701-8606-2437-0393-3e98dbf93243/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/512x512bb.jpg); */
+}
+.avt{
+    height: 100%;  
+}
+.account{
+    height: 100%;
+    width: 100px;
+    display: flex;
+}
+.fa-solid fa-circle-user{
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    display: flex;
+}
+.search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box_search{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 50px;
+    width: 75px;
+    background-color: black;
+    color: #ffffff;
+}
+.menu{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #336699;
+    color: #ffffff;
+}
